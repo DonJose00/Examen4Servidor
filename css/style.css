@@ -1,0 +1,189 @@
+header{
+
+  color: #fff;
+  margin-bottom: 20px;
+  background: #1709e6;
+}
+
+header .contenedor{
+  overflow: hidden;
+}
+
+.contenedor{
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
+
+.izquierda{
+  float: left;
+  font-size: 25px;
+}
+
+.derecha{
+  margin-top: 30px;
+  float: right;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  text-decoration: underline;
+  
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background: #daffdb;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+/*Estilos de los articulos*/
+.post{
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0 .5);
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.post article .titulo{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.post article .titulo a{
+  color: #000;
+}
+
+.post article .fecha{
+  color: #747474;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.post article .thumb{
+  margin-bottom: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.post article .thumb img{
+  vertical-align: text-top;
+  width: 100%;
+}
+
+.post article .extracto{
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.post article .continuar{
+  color: #BB1F35;
+  font-weight: bold;
+}
+
+/*Estilo de la paginacion*/
+
+.paginacion {
+  margin-bottom: 30px;
+}
+
+.paginacion ul{
+  list-style: none;
+  text-align: center;
+}
+
+.paginacion ul li{
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+
+}
+
+.paginacion ul li a{
+  display: block;
+  padding: 10px 20px;
+  background-color: #595959;
+  color: #fff;
+}
+
+.paginacion ul li a:hover{
+  background: #BB1F35;
+  text-decoration: none;
+}
+
+.paginacion ul .disable{
+  background: #a8a8a8;
+  padding: 10px 20px;
+  cursor: not-allowed;
+}
+
+.paginacion ul .disable:hover{
+  background: #a8a8a8;
+  
+}
+
+/*ESTILOS LOGIN*/
+.titulo{
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.btn{
+  margin-top: 20px;
+  
+}
+
+.final{
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 26px;
+  margin-top: 80px;
+  
+}
+
+.cuerpo{
+
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 6px;
+  
+  
+}
+
+.cuerpo h1{
+  font-size: 70px;  
+}
+
+.cuerpo h2{
+  font-size: 60px;  
+}
+
+h3{
+
+  text-align: center;
+  margin-top: 50px;
+
+}
+.encabezadoLogs{
+  background-color: rgb(160, 219, 255);
+}
