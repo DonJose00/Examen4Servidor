@@ -74,11 +74,11 @@ if (!isset($_SESSION['user'])) {
                         <textarea class="ckeditor" id="nuevadescripcion" name="nuevadescripcion" required><?= $parametros['datos']['descripcion'] ?></textarea>
                     </div></br>
                     <div class="row">
-                        <label for="prioridad">Prioridad</label>
+                        <label for="prioridad">Prioridad:</label>
                         <input type="text" class="form-control" id="nuevaprioridad" name="nuevaprioridad" value="<?= $parametros['datos']['prioridad'] ?>" />
                     </div></br>
                     <div class="row">
-                        <label for="lugar">Lugar</label>
+                        <label for="lugar">Lugar:</label>
                         <input type="text" class="form-control" id="nuevolugar" name="nuevolugar" value="<?= $parametros['datos']['lugar'] ?>" />
                     </div></br>
                     <input type="hidden" name="ident" value="<?= $parametros['datos']['ident']; ?>">
